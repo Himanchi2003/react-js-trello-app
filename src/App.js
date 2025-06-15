@@ -1,83 +1,13 @@
-
+import AppBar from "./component/AppBar/AppBar";
+import BoardBar from "./component/BoardBar/BoardBar";
+import BoardContent from "./component/BoardContent/BoardContent";
 
 function App() {
   return (
     <div className="trello-master">
-      <nav className="navbar app"> App bar</nav>
-      <nav className="navbar board"> Board bar</nav>
-      <div className="board-columns">
-        <div className="column">
-          <header>Brainstorm</header>
-        <ul>
-          <li>
-            <img src="https://raw.githubusercontent.com/haryphamdev/sharing-host-files/refs/heads/master/trello/img-design.png"></img>
-            Design & Research
-          </li>
-          <li>second</li>
-          <li>third</li>
-          <li>second</li>
-          <li>third</li>
-          <li>second</li>
-          <li>third</li>
-          <li>second</li>
-          <li>third</li>
-          <li>second</li>
-          <li>third</li>
-        </ul>
-        <footer>Add another card</footer>
-
-        </div>
-
-        <div className="column">
-          <header>Brainstorm</header>
-        <ul>
-          <li>
-            <img src="https://raw.githubusercontent.com/haryphamdev/sharing-host-files/refs/heads/master/trello/img-design.png"></img>
-            Design & Research
-          </li>
-          <li>second</li>
-        </ul>
-        <footer>Add another card</footer>
-
-        </div>
-        <div className="column">
-          <header>Brainstorm</header>
-        <ul>
-          <li>
-            <img src="https://raw.githubusercontent.com/haryphamdev/sharing-host-files/refs/heads/master/trello/img-design.png"></img>
-            Design & Research
-          </li>
-          <li>second</li>
-        </ul>
-        <footer>Add another card</footer>
-
-        </div>
-        <div className="column">
-          <header>Brainstorm</header>
-        <ul>
-          <li>
-            <img src="https://raw.githubusercontent.com/haryphamdev/sharing-host-files/refs/heads/master/trello/img-design.png"></img>
-            Design & Research
-          </li>
-          <li>second</li>
-        </ul>
-        <footer>Add another card</footer>
-
-        </div>
-        <div className="column">
-          <header>Brainstorm</header>
-        <ul>
-          <li>
-            <img src="https://raw.githubusercontent.com/haryphamdev/sharing-host-files/refs/heads/master/trello/img-design.png"></img>
-            Design & Research
-          </li>
-          <li>second</li>
-        </ul>
-        <footer>Add another card</footer>
-
-        </div>
-        
-      </div>
+      <AppBar/>
+      <BoardBar/>
+      <BoardContent/>
     </div>
   );
 }
